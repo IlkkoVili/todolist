@@ -1,0 +1,58 @@
+body {
+    background-color:darksalmon;
+}
+.container {
+    background-color:azure;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    border: 2px solid gray;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 500px;
+}
+.uusi-tehtava {
+    position: relative;
+}
+.uusi-task-input {
+    width: 50%;
+    position: relative;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+.uusi-tehtava button {
+    position: relative;
+    float: right;
+    width: 20%;
+    margin-right: 50px;
+    height: 2rem;
+    font-size: 1rem;
+}
+.todo-item {
+    list-style: none;  
+}
+.valmis {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.todo {
+    margin: 0.5rem;
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    border: 1px solid;
+  }
+  .todo li {
+    flex:1;
+  }
+  .valmis-nappi, .poista-nappi {
+    height: 2rem;
+    margin: 5px;
+  }
